@@ -1,14 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     
 }
 
 body {
-    background-size:cover;
     background: transparent;
     margin: 0;
 }
@@ -48,3 +45,9 @@ body {
     font-size: 0.6em;
     display: inline-block;
 }
+
+.reloj .caja{
+    font-size: 0.6em;
+    display: inline-block;
+}
+
