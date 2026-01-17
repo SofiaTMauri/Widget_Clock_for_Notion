@@ -20,7 +20,11 @@
         pDiaSemana.textContent = semana[diaSemana];
         pDia.textContent = dia;
         
-        pMes.textContent = mes+1;
+        mes = mes+1
+        if (mes<10){
+            mes = "0" + mes
+        };
+        pMes.textContent = mes;
 
 
         /*if (horas >= 12){
@@ -45,4 +49,5 @@
     };
     actualizarHora();
     var intervalo = setInterval(actualizarHora,1000)
+
 }())
